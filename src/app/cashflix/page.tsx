@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { 
   Search, 
-  Home as HomeIcon, 
+  Home, 
   BarChart3, 
   CreditCard, 
   Eye, 
@@ -21,7 +21,7 @@ import {
 } from "lucide-react";
 import { PieChart, Pie, Cell, ResponsiveContainer, LineChart, Line, XAxis, YAxis } from 'recharts';
 
-export default function Home() {
+export default function CashFlixPage() {
   // Chart data
   const spendingData = [
     { name: 'Planned', value: 4000, color: '#FCD34D' },
